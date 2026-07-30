@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mentions Légales — Café Moutarde</title>
+  <meta name="description" content="Mentions légales du site Café Moutarde, restaurant de cuisine fait maison à Saint-Paul, La Réunion." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .legal-page {
+      padding: calc(var(--space-4xl) + 80px) 0 var(--space-4xl);
+      background: var(--cream);
+      min-height: 100vh;
+    }
+
+    .legal-page .container {
+      max-width: 800px;
+    }
+
+    .legal-back {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-sm);
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--mustard-dark);
+      margin-bottom: var(--space-xl);
+      transition: all 0.3s;
+    }
+
+    .legal-back:hover {
+      color: var(--mustard);
+      transform: translateX(-4px);
+    }
+
+    .legal-page h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      color: var(--espresso);
+      margin-bottom: var(--space-sm);
+    }
+
+    .legal-date {
+      font-size: 0.85rem;
+      color: var(--wood-light);
+      margin-bottom: var(--space-3xl);
+      padding-bottom: var(--space-xl);
+      border-bottom: 1px solid rgba(212, 160, 23, 0.15);
+    }
+
+    .legal-section {
+      margin-bottom: var(--space-2xl);
+    }
+
+    .legal-section h2 {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      color: var(--espresso);
+      margin-bottom: var(--space-md);
+      padding-left: var(--space-md);
+      border-left: 3px solid var(--mustard);
+    }
+
+    .legal-section h3 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      color: var(--espresso-light);
+      margin-top: var(--space-lg);
+      margin-bottom: var(--space-sm);
+    }
+
+    .legal-section p,
+    .legal-section li {
+      font-size: 0.95rem;
+      color: var(--wood);
+      line-height: 1.8;
+      margin-bottom: var(--space-sm);
+    }
+
+    .legal-section ul {
+      padding-left: var(--space-lg);
+      margin-bottom: var(--space-md);
+    }
+
+    .legal-section ul li {
+      position: relative;
+      padding-left: var(--space-md);
+      margin-bottom: var(--space-xs);
+    }
+
+    .legal-section ul li::before {
+      content: '•';
+      position: absolute;
+      left: 0;
+      color: var(--mustard);
+      font-weight: 700;
+    }
+
+    .legal-section a {
+      color: var(--mustard-dark);
+      font-weight: 500;
+      border-bottom: 1px solid rgba(212, 160, 23, 0.3);
+      transition: all 0.3s;
+    }
+
+    .legal-section a:hover {
+      color: var(--mustard);
+      border-bottom-color: var(--mustard);
+    }
+
+    .legal-info-box {
+      background: var(--white);
+      border: 1px solid rgba(212, 160, 23, 0.12);
+      border-radius: var(--radius-md);
+      padding: var(--space-lg);
+      margin: var(--space-md) 0;
+    }
+
+    .legal-info-box p {
+      margin-bottom: var(--space-xs);
+    }
+
+    .legal-info-box strong {
+      color: var(--espresso);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <span class="navbar-logo">Café <span>Moutarde</span></span>
+      </a>
+      <div class="navbar-nav" id="navMenu">
+        <a href="index.html#concept">Notre Concept</a>
+        <a href="index.html#carte">La Carte</a>
+        <a href="index.html#horaires">Horaires</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="tel:0692935929" class="nav-cta">☎ Réserver</a>
+      </div>
+      <div class="mobile-toggle" id="mobileToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== LEGAL CONTENT ===== -->
+  <main class="legal-page">
+    <div class="container">
+
+      <a href="index.html" class="legal-back">← Retour à l'accueil</a>
+
+      <h1>Mentions Légales</h1>
+      <p class="legal-date">Dernière mise à jour : Juillet 2025</p>
+
+      <!-- 1. Éditeur -->
+      <div class="legal-section">
+        <h2>1. Éditeur du site</h2>
+        <div class="legal-info-box">
+          <p><strong>Raison sociale :</strong> Café Moutarde</p>
+          <p><strong>Forme juridique :</strong> Entreprise individuelle</p>
+          <p><strong>Adresse du siège :</strong> 40 rue Leconte de Lisle, Bellemène, 97460 Saint-Paul, La Réunion</p>
+          <p><strong>Téléphone :</strong> <a href="tel:0692935929">06 92 93 59 29</a> / <a href="tel:0262326761">02 62 32 67 61</a></p>
+          <p><strong>Activité :</strong> Restauration — Cuisine 100% fait maison</p>
+          <p><strong>Directeur de la publication :</strong> Le gérant du Café Moutarde</p>
+        </div>
+      </div>
+
+      <!-- 2. Hébergeur -->
+      <div class="legal-section">
+        <h2>2. Hébergeur</h2>
+        <div class="legal-info-box">
+          <p><strong>Raison sociale :</strong> Vercel Inc.</p>
+          <p><strong>Adresse :</strong> 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis</p>
+          <p><strong>Site web :</strong> <a href="https://vercel.com" target="_blank" rel="noopener">vercel.com</a></p>
+        </div>
+      </div>
+
+      <!-- 3. Conception -->
+      <div class="legal-section">
+        <h2>3. Conception et réalisation</h2>
+        <div class="legal-info-box">
+          <p><strong>Agence :</strong> KAP Digital</p>
+          <p><strong>Site web :</strong> <a href="https://kapdigital.re" target="_blank" rel="noopener">kapdigital.re</a></p>
+          <p><strong>Offre :</strong> Pack Pro Artisan</p>
+        </div>
+      </div>
+
+      <!-- 4. Propriété intellectuelle -->
+      <div class="legal-section">
+        <h2>4. Propriété intellectuelle</h2>
+        <p>
+          L'ensemble de ce site relève de la législation française et internationale sur le droit d'auteur 
+          et la propriété intellectuelle. Tous les droits de reproduction sont réservés, y compris pour 
+          les documents téléchargeables et les représentations iconographiques et photographiques.
+        </p>
+        <p>
+          La reproduction de tout ou partie de ce site sur un support électronique quel qu'il soit est 
+          formellement interdite sauf autorisation expresse du directeur de la publication.
+        </p>
+        <p>
+          Les marques, logos et noms de domaine cités sur ce site sont la propriété exclusive de leurs 
+          titulaires respectifs.
+        </p>
+      </div>
+
+      <!-- 5. Données personnelles & RGPD -->
+      <div class="legal-section">
+        <h2>5. Protection des données personnelles</h2>
+        <p>
+          Conformément au Règlement Général sur la Protection des Données (RGPD — Règlement UE 2016/679) 
+          et à la loi « Informatique et Libertés » du 6 janvier 1978 modifiée, vous disposez des droits 
+          suivants concernant vos données personnelles :
+        </p>
+        <ul>
+          <li>Droit d'accès, de rectification et de suppression</li>
+          <li>Droit à la portabilité des données</li>
+          <li>Droit d'opposition et de limitation du traitement</li>
+          <li>Droit de retirer votre consentement à tout moment</li>
+        </ul>
+
+        <h3>Données collectées</h3>
+        <p>
+          Ce site ne collecte aucune donnée personnelle de manière automatique. 
+          Aucun formulaire de contact ou système d'inscription n'est présent sur ce site. 
+          Les seules interactions possibles sont les appels téléphoniques initiés par l'utilisateur.
+        </p>
+
+        <h3>Exercer vos droits</h3>
+        <p>
+          Pour toute demande relative à vos données personnelles, vous pouvez nous contacter :
+        </p>
+        <ul>
+          <li>Par téléphone : <a href="tel:0692935929">06 92 93 59 29</a></li>
+          <li>Par courrier : Café Moutarde, 40 rue Leconte de Lisle, 97460 Saint-Paul, La Réunion</li>
+        </ul>
+        <p>
+          Vous pouvez également adresser une réclamation auprès de la 
+          <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a> 
+          (Commission Nationale de l'Informatique et des Libertés).
+        </p>
+      </div>
+
+      <!-- 6. Cookies -->
+      <div class="legal-section">
+        <h2>6. Cookies</h2>
+        <p>
+          Ce site n'utilise aucun cookie de suivi, cookie publicitaire ou cookie analytique. 
+          Aucun traceur n'est déposé sur votre terminal lors de votre navigation sur ce site.
+        </p>
+        <p>
+          Seuls des cookies strictement nécessaires au fonctionnement technique du site 
+          (liés à l'hébergement Vercel) peuvent être utilisés. Ces cookies ne nécessitent 
+          pas votre consentement conformément à la réglementation en vigueur.
+        </p>
+      </div>
+
+      <!-- 7. Responsabilité -->
+      <div class="legal-section">
+        <h2>7. Limitation de responsabilité</h2>
+        <p>
+          Les informations contenues sur ce site sont aussi précises que possible et le site 
+          est périodiquement remis à jour, mais peut toutefois contenir des inexactitudes, des 
+          omissions ou des lacunes.
+        </p>
+        <p>
+          Les photos et illustrations présentes sur ce site sont non contractuelles. 
+          La carte et les menus proposés sont susceptibles de changer en fonction des 
+          arrivages et de la saison.
+        </p>
+        <p>
+          Café Moutarde ne pourra être tenu responsable des dommages directs et indirects 
+          causés au matériel de l'utilisateur lors de l'accès au site.
+        </p>
+      </div>
+
+      <!-- 8. Liens hypertextes -->
+      <div class="legal-section">
+        <h2>8. Liens hypertextes</h2>
+        <p>
+          Ce site peut contenir des liens hypertextes vers d'autres sites internet. 
+          Café Moutarde ne dispose d'aucun moyen de contrôle du contenu de ces sites tiers 
+          et décline toute responsabilité quant à leur contenu.
+        </p>
+      </div>
+
+      <!-- 9. Droit applicable -->
+      <div class="legal-section">
+        <h2>9. Droit applicable</h2>
+        <p>
+          Les présentes mentions légales sont régies par le droit français. 
+          En cas de litige, les tribunaux français seront seuls compétents.
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="navbar-logo">Café <span>Moutarde</span></span>
+          <p>
+            Cuisine 100% fait maison à Saint-Paul, La Réunion. 
+            Quiches, burgers, salades et pâtisseries artisanales 
+            préparés chaque jour avec passion.
+          </p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="index.html#concept">Notre Concept</a>
+            <a href="index.html#carte">La Carte</a>
+            <a href="index.html#horaires">Horaires</a>
+            <a href="index.html#contact">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <div class="footer-links">
+            <a href="tel:0692935929">06 92 93 59 29</a>
+            <a href="tel:0262326761">02 62 32 67 61</a>
+            <a>40 rue Leconte de Lisle</a>
+            <a>97460 Saint-Paul</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Café Moutarde — Tous droits réservés. Site réalisé par <a href="https://kapdigital.re" target="_blank" rel="noopener">KAP Digital</a> · <a href="mentions-legales.html">Mentions Légales</a></span>
+        <div class="footer-social">
+          <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">📘</a>
+          <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">📸</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script>
+    // Mobile menu
+    const mobileToggle = document.getElementById('mobileToggle');
+    const navMenu = document.getElementById('navMenu');
+    mobileToggle.addEventListener('click', () => {
+      mobileToggle.classList.toggle('active');
+      navMenu.classList.toggle('open');
+    });
+    navMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileToggle.classList.remove('active');
+        navMenu.classList.remove('open');
+      });
+    });
+  </script>
+
+</body>
+</html>
